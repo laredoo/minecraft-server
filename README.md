@@ -1,12 +1,12 @@
-# Minecraft Server Docker 🤓
+# Minecraft Server Docker
 
 This project sets up a Minecraft server using Docker. It uses the [PaperMC](https://papermc.io/) project to provide a high-performance Minecraft server.
 
-## Prerequisites 📋
+## Prerequisites
 
 - Docker installed on your machine
 
-## Usage 🛠️
+## Usage
 
 1. Clone this repository:
     ```sh
@@ -35,11 +35,11 @@ This project sets up a Minecraft server using Docker. It uses the [PaperMC](http
       minecraft-server:0.0.1
     ```
 
-## Configuration ⚙️
+## Configuration
 
 You can configure the server by editing the `server.properties` file. This file is copied into the Docker container when it is built.
 
-## Volumes 💾
+## Volumes
 
 The following volumes are used to persist data:
 - `/minecraft/merge`
