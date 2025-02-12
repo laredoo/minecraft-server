@@ -20,7 +20,7 @@ COPY server.properties /minecraft/server.properties
 
 RUN echo "eula=true" > eula.txt
 
-VOLUME /minecraft/world
+VOLUME ["/minecraft/merge", "/minecraft/world", "/minecraft/logs"]
 
 EXPOSE 25565
 
