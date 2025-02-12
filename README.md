@@ -1,6 +1,6 @@
 # Minecraft Server Docker
 
-This project sets up a Minecraft server using Docker. It uses the PaperMC project to provide a high-performance Minecraft server.
+This project sets up a Minecraft server using Docker. It uses the [PaperMC](https://papermc.io/) project to provide a high-performance Minecraft server.
 
 ## Prerequisites
 
